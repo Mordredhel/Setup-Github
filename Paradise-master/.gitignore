@@ -1,0 +1,14 @@
+#ignore misc BYOND files
+*.log
+*.int
+*.rsc
+*.dmb
+*.lk
+<<<<<<< HEAD
+
+#ignore any files in config/, except those in subdirectories.
+/config/*
+!/config/*/*
+=======
+data/
+>>>>>>> 16f787a... Virology - NanoUI, gameplay tweaks, bugfixes
