@@ -125,7 +125,7 @@
 				src << "\blue Now teleporting."
 				observer.loc = O.loc
 				observer.timeofdeath = world.time // Set the time of death so that the respawn timer works correctly.
-				observer.forcecanrespawn = 0
+//				observer.forcecanrespawn = 0 // Disallows respawn for observers so they cannot respawn is respawn is toggled off
 				client.prefs.update_preview_icon(1)
 				observer.icon = client.prefs.preview_icon
 				observer.alpha = 127
