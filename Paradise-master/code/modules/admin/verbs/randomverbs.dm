@@ -299,7 +299,7 @@ Ccomp's first proc.
 		var/response = alert(src, "Are you sure you wish to allow this individual to play?","Ghost has used AntagHUD","Yes","No")
 		if(response == "No") return
 	G.timeofdeath=-19999
-	G.forcecanrespawn = 1
+//	G.forcecanrespawn = 1 //Allows the selected player to respawn even if allow respawn is toggled off
 					/* time of death is checked in /mob/verb/abandon_mob() which is the Respawn verb.
 									   timeofdeath is used for bodies on autopsy but since we're messing with a ghost I'm pretty sure
 									   there won't be an autopsy.
