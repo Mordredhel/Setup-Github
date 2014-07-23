@@ -7,6 +7,7 @@
 	canmove = 0
 	icon = null
 	invisibility = 101
+	
 
 	playsound(src.loc, 'sound/effects/gib.ogg', 100, 1, 10)
 
@@ -82,7 +83,7 @@
 	//End of fix.
 
 	timeofdeath = world.time
-	forcecanrespawn = 0
+//	forcecanrespawn = 0 //Mob cannot use the respawn verb if respawn is toggled off
 
 	living_mob_list -= src
 	dead_mob_list += src
