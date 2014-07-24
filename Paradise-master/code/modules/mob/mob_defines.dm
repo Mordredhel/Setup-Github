@@ -93,7 +93,7 @@
 	var/name_archive //For admin things like possession
 
 	var/timeofdeath = 0.0//Living
-	var/forcecanrespawn = 0//Eternia fix for respawning with respawn toggled off
+//	var/forcecanrespawn = 0//Eternia variable for allowing a mob to respawn while allow respawn is toggled off
 	var/cpr_time = 1.0//Carbon
 
 
